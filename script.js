@@ -24,20 +24,20 @@ else if (num1 > num3 && num2 < num3){
 }
 
 else{
-    alert("Siz 2 yoki 3 ta bir hil son kritdingiz")
+    // alert("Siz 2 yoki 3 ta bir hil son kritdingiz")
 
 
-    // if( num1 == num2 && num2 < num3 && num2 > num3 && num3 > num1 && num3 < num1){
-    //     alert("Siz 2 ta bir xil son kritdingiz")
-    // }
+    if( num1 == num2 && num2 < num3 || num2 > num3 || num3 > num1 || num3 < num1){
+        alert("Siz 2 ta bir xil son kritdingiz")
+    }
 
-    // else if (num2 == mun3 && num1 > num2 && num1 < num2 && num1 > num3 && num1 < num3 ){
-    //     alert("Siz 2 ta bir xil son kritdingiz")
-    // }
-    // else if (num1 == num3 && num2 > num3 && num2 < num3 && num1 > num2 && num1 < num2){
-    //     alert("Siz 2 ta bir xil son kritdingiz")
-    // }
-    // else{
-    //     alert("Siz 3 ta bir xil son kritdingiz")
-    // }
+    else if (num2 == mun3 && num1 > num2 || num1 < num2 || num1 > num3 || num1 < num3 ){
+        alert("Siz 2 ta bir xil son kritdingiz")
+    }
+    else if (num1 == num3 && num2 > num3 || num2 < num3 || num1 > num2 || num1 < num2){
+        alert("Siz 2 ta bir xil son kritdingiz")
+    }
+    else{
+        alert("Siz 3 ta bir xil son kritdingiz")
+    }
 }
